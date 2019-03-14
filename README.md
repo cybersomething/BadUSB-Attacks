@@ -6,7 +6,7 @@
 It is important that the user understands the gravity of the consequences of deploying a malicious BadUSB.</b>
 
 ********************************************
-This project has not been finished yet!
+<h2>This project has not been finished yet!</h2>
 
 This github repository is for my Introduction to Secuity project, which is 'Making your own malicious USB'.
 
