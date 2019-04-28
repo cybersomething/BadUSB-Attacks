@@ -15,5 +15,5 @@ DigiKeyboard.sendKeyStroke(76); // Clean it up
 DigiKeyboard.delay(50);
 DigiKeyboard.println("notepad.exe");
 DigiKeyboard.delay(200);
-DigiKeyboard.println("Hello, your PC has been found to have a vulnerability, please phone the emergency IT Help-desk on 01234 567 890");
+DigiKeyboard.println("Hello, your PC has been found to have an extremely severe vulnerability, please phone the emergency IT Help-desk on 01234 567 890");
 }
