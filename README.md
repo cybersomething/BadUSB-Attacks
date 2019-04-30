@@ -8,6 +8,6 @@ It is important that the user understands the gravity of the consequences of dep
 ********************************************
 <h2>This project has not been finished yet!</h2>
 
-This github repository is for my Introduction to Secuity project, which is 'Making your own malicious USB'.
+This github repository is for my Introduction to Security project, which is 'Making your own malicious USB'.
 
 This project looks at how we can create a BadUSB using a Digispark ATTiny85 USB development board. All the user needs to get started is Arduino, with the relevant digispark board manager and drivers installed and a Digispark ATTiny85.
